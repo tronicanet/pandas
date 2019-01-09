@@ -1,7 +1,7 @@
 # pandas
 
 
-conexion a base de datos
+Conexion a base de datos MYSQL
 
 ```python
 import pandas as pd
@@ -30,3 +30,6 @@ Guardar los datos en CSV delimitado por coma
 df.to_csv('ouput.csv', sep=',')
 
 ```
+
+
+Conexion a archivo CSV
