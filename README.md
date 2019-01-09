@@ -23,7 +23,7 @@ filtrado de columnas
 df = pd.read_sql_query('select * from TABLE', engine, columns=['Columna_01','Columna_02'])
 ```
 
-Guardar los datos en CSV delimitado por coma
+Guardar los datos en archivo CSV delimitado por coma
 
 ```python
 
