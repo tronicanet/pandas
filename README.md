@@ -67,3 +67,8 @@ with engine.connect() as conn, conn.begin():
     df.to_sql('tabla1', conn, if_exists='replace')
 
 ```
+
+### json to panda
+```
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.io.json.json_normalize.html
+```
