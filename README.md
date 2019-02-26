@@ -11,7 +11,7 @@
 1     2     4
 ```
 
-Conexion a base de datos MYSQL
+### Conexion a base de datos MYSQL
 
 ```python
 import pandas as pd
@@ -27,13 +27,13 @@ df.head()
 
 ```
 
-filtrado de columnas
+### filtrado de columnas
 
 ```python
 df = pd.read_sql_query('select * from TABLE', engine, columns=['Columna_01','Columna_02'])
 ```
 
-Guardar los datos en archivo CSV delimitado por coma
+### Guardar los datos en archivo CSV delimitado por coma
 
 ```python
 
@@ -42,7 +42,7 @@ df.to_csv('ouput.csv', sep=',')
 ```
 
 
-Conexion a archivo CSV
+### Conexion a archivo CSV
 
 Leer archivo csv proveniente desde una url
 
@@ -57,7 +57,7 @@ r = requests.get(url)
 df = pd.read_csv(StringIO(r.text), sep=',')
 ```
 
-Leer archivo csv desde url y guardar los datos en BD
+### Leer archivo csv desde url y guardar los datos en BD
 
 ```python
 import requests
