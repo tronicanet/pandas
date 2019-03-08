@@ -82,3 +82,8 @@ with engine.connect() as conn, conn.begin():
 ```
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.io.json.json_normalize.html
 ```
+
+
+LINK  
+
+http://numba.pydata.org/numba-doc/latest/user/5minguide.html
