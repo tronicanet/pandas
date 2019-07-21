@@ -4,9 +4,9 @@
 1. [Conexion entrada / salidas](#id1)
 2. [Columnas](#id2)
 
-
-## CONEXION ENTRADA / SALIDA
 <a name="id1"></a>
+## CONEXION ENTRADA / SALIDA
+
 
 ### LEER ARCHIVO CSV
 ```python
@@ -34,8 +34,9 @@ df.to_csv(path+nombre, sep=';', index_col = False)
 
 ### GUARDAR EXCEL
 
-## COLUMNAS
 <a name="id2"></a>
+## COLUMNAS
+
 
 ### Dataframe format
 
