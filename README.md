@@ -1,16 +1,12 @@
 # pandas
 
 **Índice**
-1. [Primer apartado](#id1)
-2. [Segundo apartado](#id2)
-<div id='id1' />
-## Primer apartado
-Texto del primer apartado
-<div id='id2' />
-## Segundo apartado
-Texto del segundo apartado
+1. [Conexion entrada / salidas](#id1)
+2. [Columnas](#id2)
+
 
 ## CONEXION ENTRADA / SALIDA
+<div id='id2' />
 
 ### LEER ARCHIVO CSV
 ```python
@@ -39,6 +35,7 @@ df.to_csv(path+nombre, sep=';', index_col = False)
 ### GUARDAR EXCEL
 
 ## COLUMNAS
+<div id='id2' />
 
 ### Dataframe format
 
