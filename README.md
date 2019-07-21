@@ -20,6 +20,10 @@ display (df)
 ### LEER INFLUXDB
 
 ### GUARDAR CSV
+```python
+import pandas as pd
+df.to_csv(path+nombre, sep=';', index_col = False)
+```
 
 ### GUARDAR EXCEL
 
