@@ -2,6 +2,7 @@
 
 **Índice**
 1. [Conexion entrada / salidas](#id1)
+1.1
 2. [Columnas](#id2)
 
 <a name="id1"></a>
