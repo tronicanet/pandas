@@ -5,7 +5,7 @@
 ### LEER ARCHIVO CSV
 ```python
 import pandas as pd
-pd.read_csv('table.csv', sep=';')
+df = pd.read_csv('table.csv', sep=';')
 ```
 ### LEER BASE DE DATOS MYSQ
 ```python
