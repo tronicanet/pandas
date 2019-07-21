@@ -1,5 +1,28 @@
 # pandas
 
+## CONEXION ENTRADA / SALIDA
+
+### LEER ARCHIVO CSV
+
+### LEER BASE DE DATOS MYSQ
+```
+import pandas as pd
+import pymysql
+from sqlalchemy import create_engine
+ 
+engine = create_engine('mysql+pymysql://root:tronicanet@localhost:3306/information_schema')
+df = pd.read_sql_query("select `TABLE_NAME` from TABLE_CONSTRAINTS where `CONSTRAINT_SCHEMA`='mqtt'", engine)
+display (df)
+```
+
+### LEER INFLUXDB
+
+### GUARDAR CSV
+
+### GUARDAR EXCEL
+
+## COLUMNAS
+
 ### Dataframe format
 
 ```
