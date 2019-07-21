@@ -12,9 +12,10 @@ df = pd.read_csv('table.csv', sep=';')
 import pandas as pd
 import pymysql
 from sqlalchemy import create_engine
+
+engine = create_engine('mysql+pymysql://user:pass@localhost:3306/DB')
+df = pd.read_sql_query('select * from TABLE', engine)
  
-engine = create_engine('mysql+pymysql://root:tronicanet@localhost:3306/information_schema')
-df = pd.read_sql_query("select `TABLE_NAME` from TABLE_CONSTRAINTS where `CONSTRAINT_SCHEMA`='mqtt'", engine)
 display (df)
 ```
 ### LEER INFLUXDB
